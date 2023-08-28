@@ -66,6 +66,19 @@ $bordes: border-bottom 3px solid red;
     margin-bottom: 15px;
 }
 
+.titulo2 {
+    @include titulos;
+    color: black;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
 .tituloGrande {
     @include titulos;
     font-size: xx-large;
